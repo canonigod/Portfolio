@@ -1,0 +1,65 @@
+$description_text_color: rgba(198,201,216,0.75);
+$main_blue: #1ea7c2;
+$text: rgba(198,201,216,0.75);
+
+
+#about {
+
+    height: 100%;
+
+    img {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    h2 {
+        font-size: 60px;
+    }
+
+    .description{
+        color: $description_text_color;
+        font-size: 18px;
+        line-height: 2em;
+        font-weight: 300;
+    }
+
+
+
+    .nav-tabs {
+        border: none ;
+
+        .nav-link {
+            background: none !important;
+            border-bottom: 1px solid #fff;
+            margin: 0 10px;
+            color: #fff !important;
+            padding: 0;
+            margin: 20px 30px 25px 0;
+            font-size: 18px;
+    
+            &:hover{
+                border: none !important;
+                border-bottom: 1px solid #fff !important;
+            }
+
+            &.active {
+                border: none;
+                border-bottom: 1px solid $main_blue !important;
+                color: $main_blue !important;
+            }
+        }
+    }
+
+        .tab-text{
+            color: $text;
+            font-weight: 300 ;
+
+            & span {
+                font-weight: 100 ;
+            }
+        }
+
+}
+
+
+
